@@ -1,0 +1,5 @@
+web:
+  build: .
+  command: java -Djava.security.egd=file:/dev/./urandom -jar target/gs-spring-boot-docker-0.1.0.jar
+  ports:
+    - "8080"
